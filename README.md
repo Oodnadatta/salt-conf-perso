@@ -23,6 +23,7 @@ sudo git clone git@github.com:Oodnadatta/salt-conf-perso.git /srv/salt #(pour mo
 4) Lancer salt et appliquer la configuration saltstack sur la machine.
 ```
 sudo apt update #(met à jour la liste des paquets disponibles à l'installation)
+sudo salt-call --local state.highstate test=True
 sudo salt-call --local state.highstate
 sudo apt ugrade #(met à jour tous les paquets sur le système pour qu'ils soient tous à la dernière version)
 ```

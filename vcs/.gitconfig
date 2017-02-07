@@ -1,0 +1,40 @@
+[user]
+name = Anne-Sophie Denommé
+email = asdeno@hotmail.fr
+
+[alias]
+st = status
+df = diff
+b = branch
+ci = commit -a
+co = checkout
+lg = log --graph
+unadd = reset HEAD
+uncommit = reset --soft HEAD^
+
+[color]
+branch = auto
+diff = auto
+grep = auto
+interactive = auto
+status = auto
+
+[color "status"]
+added = green
+changed = blue
+untracked = magenta
+
+[diff]
+tool = kdiff3
+
+[gitreview]
+remote = origin
+
+[log]
+decorate = full
+
+[push]
+default = current
+
+[tig]
+diff-options = --show-signature
