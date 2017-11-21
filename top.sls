@@ -4,6 +4,7 @@ base: #nom de conf par défaut
     - editors
     - ftp
     - network
+    - ssh
     - system
     - term
     - vcs
